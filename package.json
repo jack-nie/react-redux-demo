@@ -41,11 +41,15 @@
     "webpack-dev-server": "~1.14.1"
   },
   "dependencies": {
+    "cross-fetch": "^2.1.1",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
     "prop-types": "^15.6.1",
     "react": "~15.1.0",
     "react-dom": "~15.1.0",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
   "babel": {
     "presets": [
